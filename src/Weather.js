@@ -11,6 +11,11 @@ export default function App() {
           className="form-control"
           autoFocus="on"
         />
+        <input 
+          type="submit" 
+          value="Search" 
+          className="btn btn-primary w-100"
+         />
       </form>
       <h1>New York</h1>
       <ul>
