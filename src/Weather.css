@@ -1,11 +1,25 @@
+:root {
+  --branding-color: linear-gradient(#1e2638ff 0%, #82c2d2ff);
+}
+
 .Weather {
-  border: 1 px solid #707172;
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  color: rgb(135, 135, 135);
+  border-radius: 4px;
+  background-color: var(--branding-color);
 }
 
-body .Weather{
-  color: black;
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
 }
 
-ul {
+.Weather ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
