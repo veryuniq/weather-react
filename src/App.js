@@ -7,11 +7,11 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-      <header className="App-header">
-        <Weather />
-      </header>
-      <footer>
-                This was coded by{" "}
+        <header className="App-header">
+          <Weather defaultCity="Córdoba" />
+        </header>
+        <footer>
+          This was coded by{" "}
           <a
             href="https://rococo-cupcake-63a9d5.netlify.app"
             target="_blank"
@@ -26,9 +26,10 @@ function App() {
             rel="noopener noreferrer"
           >
             open-sourced on Github
-          </a>{" "}.
+          </a>{" "}
+          .
         </footer>
-        </div>
+      </div>
     </div>
   );
 }
