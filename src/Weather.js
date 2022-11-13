@@ -11,12 +11,12 @@ export default function Weather(props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
-      temperature: response.data.main.temp,
-      humidity: response.data.main.humidity,
+      temperature: response.data.temperature.current,
+      humidity: response.data.humidity,
       date: new Date(response.data.dt * 1000),
-      description: response.data.weather[0].description,
-      icon: response.data.weather[0].icon,
-      wind: response.data.main.wind.speed,
+      description: response.data.condition.description,
+      icon: response.data.condition.icon,
+      wind: response.data.wind.speed,
       city: response.data.name,
     });
   }
@@ -55,6 +55,7 @@ export default function Weather(props) {
               type="submit"
               value="Search"
               className="btn btn-primary w-100"
+              id="button"
               autoFocus="on"
             />
           </div>
