@@ -1,29 +1,31 @@
+import React from "react";
 import Weather from "./Weather";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        <header className="App-header">
-          <Weather defaultCity="Córdoba" />
-        </header>
+       <Weather defaultCity="Córdoba" />
         <footer>
           This was coded by{" "}
           <a
             href="https://rococo-cupcake-63a9d5.netlify.app"
+            aria-label=" Véronique"
             target="_blank"
             rel="noopener noreferrer"
+            alt=" Véronique Website"
           >
             Véronique
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/veryuniq/weather-react"
+            aria-label="github"
             target="_blank"
             rel="noopener noreferrer"
+            alt="Github"
           >
             open-sourced on Github
           </a>{" "}
@@ -34,4 +36,3 @@ function App() {
   );
 }
 
-export default App;
