@@ -5,6 +5,7 @@
 
 
 body{
+  background: var(--background-color);
 }
 
 .App {
@@ -13,7 +14,8 @@ body{
 }
 
 .App .Weather{
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  background: var(--primary-color);
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .App footer{
