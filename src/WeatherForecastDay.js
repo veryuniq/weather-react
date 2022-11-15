@@ -24,6 +24,8 @@ export default function WeatherForecastDay(props){
             {day()}
         </div>
         <img
+          className="icon"
+          id="icon"
           src={props.data.condition.icon_url}
           alt={props.data.condition.icon}
         />
