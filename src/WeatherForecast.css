@@ -1,3 +1,19 @@
+:root {
+    --gradient-1: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
 .WeatherForecast {
     text-align: center;
+}
+
+.WeatherForecast .col, .weatherInfo {
+   border: 1px;
+}
+
+.WeatherForecast .col:hover{
+  background: var(--gradient-1);
+  border: 1px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: -7px 5px 14px rgba(0, 0, 0, 0.5);
 }
