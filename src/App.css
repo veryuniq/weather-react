@@ -7,7 +7,9 @@
 body{
   background: var(--background-color);
 }
-
+.container{
+  margin: 0 auto 300px;
+}
 .App {
     max-width: 600px; 
     margin: 30px auto;
@@ -26,7 +28,7 @@ body{
 }
 .App footer a {
   background: none;
-  color: grey;
+  color: black;
   text-decoration: none;
 }
 
