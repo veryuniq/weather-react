@@ -12,6 +12,7 @@
 
 .WeatherForecast .col:hover{
   background: var(--gradient-1);
+  color: white;
   border: 1px;
   padding: 15px;
   border-radius: 20px;

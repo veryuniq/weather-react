@@ -1,6 +1,7 @@
 :root {
-  --background-color: linear-gradient(#1e2638ff 0%, #82c2d2ff);
+  --background-color: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);;
   --primary-color: linear-gradient(111.5deg, rgb(228, 247, 255) 21.9%, rgb(255, 216, 194) 92.2%);
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -10,6 +11,11 @@ body{
 .container{
   margin: 0 auto 300px;
 }
+
+h1, ul{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .App {
     max-width: 600px; 
     margin: 30px auto;
@@ -17,18 +23,18 @@ body{
 
 .App .Weather{
   background: var(--primary-color);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
 }
 
 .App footer{
-  font-size: 11px;
+  font-size: 13px;
   margin: 10px 0;
   text-align: center;
   color: white;
 }
 .App footer a {
   background: none;
-  color: black;
+  color: rgb(175, 175, 175);
   text-decoration: none;
 }
 
